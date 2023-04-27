@@ -8,8 +8,7 @@ pandas, sklearn, regression, data cleaning, machine learning preprocessing, impu
 ## Start Times and Grades
 
 Do students earn higher grades in classes that start later?
-
-![image](https://github.com/kellianneyang/grades-project/blob/main/images/later%classes%give%out%higher%grades.png)
+![later classes give out higher grades](https://user-images.githubusercontent.com/123273072/234943368-f5002587-eed3-4e30-b988-46837b54decc.png)
 
 The answer is yes! The trend line plotted for each level of class difficulty shows a slightly positive slope. This means that students in classes that start later in the day, on average, earn higher grades than others. 
 
@@ -17,7 +16,7 @@ The answer is yes! The trend line plotted for each level of class difficulty sho
 
 Do students earn higher grades in easier classes? 
 
-![image](https://github.com/kellianneyang/grades-project/blob/main/images/are%more%advanced%courses%harder.png)
+![are more advanced courses harder](https://user-images.githubusercontent.com/123273072/234943439-6bc09480-4581-478e-8676-6de33f089b42.png)
 
 The answer is no! From the strip plot above, we can see that most of the average grades for all levels of difficulty cluster around the maximum 4.0. We can also see that there are fewer classes offered at the intermediate level, and even fewer at the advanced level. 
 
