@@ -5,6 +5,8 @@ pandas, sklearn, regression, data cleaning, machine learning preprocessing, impu
 
 # Business Problem and Stakeholders
 
+Rather than solving a particular problem, this project explores the factors that may contribute to student grades. We believe there are many discoveries in this data that would be interesting to universities, esepcially those looking to boost student performance and keep tabs on course trends over time. Such a broad dataset can be used to shed light on many questions, some of which are addressed in the data visualization section of this notebook. 
+
 # Source of Data
 
 The original data for this project appears on Kaggle.com: https://www.kaggle.com/datasets/Madgrades/uw-madison-courses. It was posted by user Madgrades, who obtained the data from the University of Wisconsin's registrar office (https://registrar.wisc.edu/grade-reports/). The data was extracted from PDF reports published by that office. Please see the Kaggle dataset for more information.
