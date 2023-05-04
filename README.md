@@ -6,8 +6,6 @@ pandas, sklearn, regression, data cleaning, machine learning preprocessing, impu
 
 # Business Problem and Stakeholders
 
-## Problem 1: Predicting Grades
-
 What are the factors that contribute to the average grade of a class? Do the students' hard work, dedication, and intellect determine their grades? Or, can grades be predicted by section-level variables, such as start time, class length, and subject?
 
 Stakeholders for this problem are many and varied. Students who want a class where a good grade is virtually guaranteed, as well as their parents, are extremely interested in this problem. They would like to register for classes that are certain to give out high grades, especially if they need to take classes outside of their major course of study (the classes that they are ostensibly most interested in taking anyway). 
@@ -15,14 +13,6 @@ Stakeholders for this problem are many and varied. Students who want a class whe
 Certain university offices, such as career services and advising, would also benefit from answers to these questions. Career counselors would be able to suggest courses to students to explore diverse career fields that students would be more willing to take a chance on, if they knew the courses wouldn't bring their grades down. Advisors' student satisfaction ratings would rise if they could recommend courses to students that students end up getting good grades in. 
 
 Tutoring startups will also want this data. If they can predict which courses give out the worst grades, they can target their hiring of tutors to those classes and focus their marketing efforts towards those subjects and classes as well.
-
-## Problem 2: Predicting Popularity of Courses
-
-Which courses should universities offer more sections of? Which courses can be eliminated to free up resources for more needed courses, or to minimize loss of revenue? Universities are in the business of attracting students, and earn revenue from students' tuition dollars. 
-
-This dataset includes the number of grades given for each course section, which is equivalent to the number of students who took the course (minus students who dropped the course, which is not included). Over time, courses whose sections have reached maximum capacity and have increased in demand have had more seats and sections added. The result of this is that if we can predict the number of students in a course, we have an approximation of how popular the course is, i.e., how in-demand it is with students. 
-
-The big stakeholders in this problem are universities. They want to know which courses are in-demand, so they can increase seats and sections in those courses, and thereby increase revenue from tuition. If classes at certain times of day, or classes with certain day-of-week schedules, or classes in certain subjects are popular, the university can maximize revenue by making any new classes in accordance with those features.
 
 # Source of Data
 
@@ -69,8 +59,10 @@ More visualizations pertinent to core data insights are available in the data_vi
 
 # Machine Learning Model
 
-Include: best model and its metrics, a description of how well the model would solve the business problem
+The model that had the lowest errors on the out-of-sample test data was the default Random Forest Regressor. It was able to predict the average grade of a section, on a 4.0 scale, to within +/-0.16 (mean average error). 
+
+This means that we can pick courses that will give high grades for students to take! If a student or parent comes and wants to pick a class to take that will have a high average grade, we can predict those courses.
 
 # Summary and Recommendations
 
-A summary with at least 2 recommendations for your stakeholders, based on your model performance AND analytical findings.
+Take courses that are later in the day, with more experienced instructors, on higher-level classes to improve chances that the average grade of the class will be higher. Stick to subjects that usually give out higher grades like English courses; stay away from math!
