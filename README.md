@@ -59,7 +59,7 @@ More visualizations pertinent to core data insights are available in the data_vi
 
 # Machine Learning Model
 
-The model that had the lowest errors on the out-of-sample test data was the default Random Forest Regressor. It was able to predict the average grade of a section, on a 4.0 scale, to within +/-0.16 (mean average error). 
+The model that had the lowest errors on the out-of-sample test data was the default Random Forest Regressor. It was able to predict the average grade of a section, on a 4.0 scale, to within +/-0.16 (mean absolute error). 
 
 This means that we can pick courses that will give high grades for students to take! If a student or parent comes and wants to pick a class to take that will have a high average grade, we can predict those courses.
 
